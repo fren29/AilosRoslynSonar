@@ -1,0 +1,14 @@
+﻿D:\Projects\sonarqubetest\SonarQubeTest\Controllers\ClientController.cs
+D:\Projects\sonarqubetest\SonarQubeTest\Domain\Entities\Client.cs
+D:\Projects\sonarqubetest\SonarQubeTest\Infra\Context\SqlServerContext.cs
+D:\Projects\sonarqubetest\SonarQubeTest\Migrations\20230709235620_Initial.cs
+D:\Projects\sonarqubetest\SonarQubeTest\Migrations\20230709235620_Initial.Designer.cs
+D:\Projects\sonarqubetest\SonarQubeTest\Migrations\SqlServerContextModelSnapshot.cs
+D:\Projects\sonarqubetest\SonarQubeTest\Program.cs
+D:\Projects\sonarqubetest\SonarQubeTest\obj\Debug\net7.0\SonarQubeTest.GlobalUsings.g.cs
+D:\Projects\sonarqubetest\SonarQubeTest\obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+D:\Projects\sonarqubetest\SonarQubeTest\obj\Debug\net7.0\SonarQubeTest.AssemblyInfo.cs
+D:\Projects\sonarqubetest\SonarQubeTest\obj\Debug\net7.0\SonarQubeTest.MvcApplicationPartsAssemblyInfo.cs
+D:\Projects\sonarqubetest\SonarQubeTest\appsettings.Development.json
+D:\Projects\sonarqubetest\SonarQubeTest\Properties\launchSettings.json
+D:\Projects\sonarqubetest\SonarQubeTest\appsettings.json

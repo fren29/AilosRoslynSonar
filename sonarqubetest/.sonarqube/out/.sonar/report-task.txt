@@ -1,0 +1,6 @@
+projectKey=AilosTest
+serverUrl=http://localhost:9000
+serverVersion=10.1.0.73491
+dashboardUrl=http://localhost:9000/dashboard?id=AilosTest
+ceTaskId=AYl3Kn1vcxJ_n8nBHbt5
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYl3Kn1vcxJ_n8nBHbt5

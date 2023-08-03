@@ -1,0 +1,263 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.6.0.0",
+        "fileVersion": "4.6.0-3.23259.8 (c3cc1d0c)",
+        "semanticVersion": "4.6.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Clients' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Projects/sonarqubetest/SonarQubeTest/Infra/Context/SqlServerContext.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 16,
+                  "endLine": 8,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Projects/sonarqubetest/SonarQubeTest/Infra/Context/SqlServerContext.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 30,
+                  "endLine": 12,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS0219",
+          "level": "warning",
+          "message": "The variable 'test' is assigned but its value is never used",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Projects/sonarqubetest/SonarQubeTest/Controllers/ClientController.cs",
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 17,
+                  "endLine": 96,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "S1854",
+          "level": "warning",
+          "message": "Remove this useless assignment to local variable 'test'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Projects/sonarqubetest/SonarQubeTest/Controllers/ClientController.cs",
+                "region": {
+                  "startLine": 98,
+                  "startColumn": 17,
+                  "endLine": 98,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "GetRule",
+          "level": "warning",
+          "message": "Avoid using 'ListClients' in GET methods.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Projects/sonarqubetest/SonarQubeTest/Controllers/ClientController.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 62,
+                  "endLine": 27,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "PostRule",
+          "level": "warning",
+          "message": "Avoid using 'IncludeClient' in POST methods.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Projects/sonarqubetest/SonarQubeTest/Controllers/ClientController.cs",
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 49,
+                  "endLine": 89,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "ExcludeFromCodeCoverageRule",
+          "level": "warning",
+          "message": "Avoid using [ExcludeFromCodeCoverage] attribute.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Projects/sonarqubetest/SonarQubeTest/Controllers/ClientController.cs",
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 10,
+                  "endLine": 87,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "DeleteRule",
+          "level": "warning",
+          "message": "Avoid using 'ExcludeClient' in DELETE methods.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Projects/sonarqubetest/SonarQubeTest/Controllers/ClientController.cs",
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 42,
+                  "endLine": 108,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS0219": {
+          "id": "CS0219",
+          "shortDescription": "Variable is assigned but its value is never used",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0219)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "DeleteRule": {
+          "id": "DeleteRule",
+          "shortDescription": "Invalid Method Name (DELETE)",
+          "defaultLevel": "warning",
+          "properties": {
+            "category": "Naming",
+            "isEnabledByDefault": true
+          }
+        },
+        "ExcludeFromCodeCoverageRule": {
+          "id": "ExcludeFromCodeCoverageRule",
+          "shortDescription": "Avoid using [ExcludeFromCodeCoverage]",
+          "defaultLevel": "warning",
+          "properties": {
+            "category": "Naming",
+            "isEnabledByDefault": true
+          }
+        },
+        "GetRule": {
+          "id": "GetRule",
+          "shortDescription": "Invalid Method Name (GET)",
+          "defaultLevel": "warning",
+          "properties": {
+            "category": "Naming",
+            "isEnabledByDefault": true
+          }
+        },
+        "PostRule": {
+          "id": "PostRule",
+          "shortDescription": "Invalid Method Name (POST)",
+          "defaultLevel": "warning",
+          "properties": {
+            "category": "Naming",
+            "isEnabledByDefault": true
+          }
+        },
+        "S1854": {
+          "id": "S1854",
+          "shortDescription": "Unused assignments should be removed",
+          "fullDescription": "A dead store happens when a local variable is assigned a value that is not read by any subsequent instruction. Calculating or retrieving a value only to then overwrite it or throw it away, could indicate a serious error in the code. Even if it’s not an error, it is at best a waste of resources. Therefore all calculated values should be used.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1854",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

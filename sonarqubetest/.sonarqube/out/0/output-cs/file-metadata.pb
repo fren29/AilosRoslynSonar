@@ -1,0 +1,12 @@
+P
+GD:\Projects\sonarqubetest\SonarQubeTest\Controllers\ClientController.csutf-8J
+AD:\Projects\sonarqubetest\SonarQubeTest\Domain\Entities\Client.csutf-8R
+ID:\Projects\sonarqubetest\SonarQubeTest\Infra\Context\SqlServerContext.csutf-8U
+LD:\Projects\sonarqubetest\SonarQubeTest\Migrations\20230709235620_Initial.csutf-8`
+UD:\Projects\sonarqubetest\SonarQubeTest\Migrations\20230709235620_Initial.Designer.csutf-8^
+SD:\Projects\sonarqubetest\SonarQubeTest\Migrations\SqlServerContextModelSnapshot.csutf-8;
+2D:\Projects\sonarqubetest\SonarQubeTest\Program.csutf-8c
+XD:\Projects\sonarqubetest\SonarQubeTest\obj\Debug\net7.0\SonarQubeTest.GlobalUsings.g.csutf-8r
+gD:\Projects\sonarqubetest\SonarQubeTest\obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.csutf-8a
+VD:\Projects\sonarqubetest\SonarQubeTest\obj\Debug\net7.0\SonarQubeTest.AssemblyInfo.csutf-8t
+iD:\Projects\sonarqubetest\SonarQubeTest\obj\Debug\net7.0\SonarQubeTest.MvcApplicationPartsAssemblyInfo.csutf-8
